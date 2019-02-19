@@ -1,0 +1,58 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.topHeader{
+    margin-left: 25%;
+    font-size: 26px;
+}
+
+.topHeader h1{
+    margin: 0%;
+    display: inline-block;
+}
+
+.topHeader img{
+    width:100px;
+    height: auto;
+}
+
+nav{
+    border: outset 20px yellow;
+}
+
+ul{
+    padding: 0%;
+    margin-left: 25%;
+}
+
+li{
+    display: inline-block;
+    padding-right: 20%;
+    font-size: 20px;
+}
+
+.sectionHeader{
+    font-size: 20px;
+    color: red;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 5px 6px 7px black;
+}
+
+.articleHeader{
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline wavy red;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
