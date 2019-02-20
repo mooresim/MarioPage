@@ -56,3 +56,48 @@ video{
     width: 70%;
     vertical-align: top;
 }
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.listHeader{
+    font-size: 20px;
+    color: firebrick;
+}
+
+.consoleSection{
+    border: outset 20px firebrick;
+    margin: 10px;
+    padding: 15px;
+}
+
+.consoleSection li{
+    padding: 5px;
+}
+
+#marioDay{
+    font-family: 'Bangers', cursive;
+    text-shadow: 3px 4px 5px red;
+}
+
+#marioFact{
+    padding: 20px;
+    font-style:bold ;
+    font-family:'Love Ya Like A Sister', cursive;
+}
+
+section{
+    background-color: blue;
+}
+
+.article {
+    background-color: firebrick;
+    border: groove 20px gray;
+}
+
+body{
+    b
+    background-attachment: fixed;
+}
