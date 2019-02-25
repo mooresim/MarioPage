@@ -98,6 +98,9 @@ section{
 }
 
 body{
-    b
+    background-image: url(¨mario.jpg¨);
     background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
 }
