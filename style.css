@@ -90,6 +90,8 @@ aside{
 
 section{
     background-color: blue;
+    border: inset 20px whitesmoke;
+    margin-bottom: 10px;
 }
 
 article {
