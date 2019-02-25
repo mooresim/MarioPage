@@ -100,7 +100,7 @@ section{
 body{
     background-image: url(¨mario.jpg¨);
     background-attachment: fixed;
-    background-size:cover;
+    background-size:contain;
     background-repeat:no-repeat;
     
 }
