@@ -92,9 +92,10 @@ section{
     background-color: blue;
 }
 
-.article {
+article {
     background-color: firebrick;
     border: groove 20px gray;
+    margin-bottom: 10px;
 }
 
 body{
