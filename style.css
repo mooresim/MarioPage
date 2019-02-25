@@ -1,6 +1,10 @@
 body{
     margin-left: 10%;
     margin-right: 10%;
+    background-image: url('Resources/mario.jpg');
+    background-attachment: fixed;
+    background-size:contain;
+    background-repeat:repeat;
 }
 
 .topHeader{
@@ -19,15 +23,16 @@ body{
 }
 
 nav{
-    border: outset 20px yellow;
+    border: double 20px black;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
-ul{
+#unorderNav{
     padding: 0%;
-    margin-left: 25%;
+    margin-left: 25%
 }
-
-li{
+#listNav{
     display: inline-block;
     padding-right: 20%;
     font-size: 20px;
@@ -37,13 +42,13 @@ li{
     font-size: 20px;
     color: red;
     font-family: 'Titillium Web', sans-serif;
-    text-shadow: 5px 6px 7px black;
+    text-shadow: 5px 6px 4px yellow;
 }
 
 .articleHeader{
     font-size: 18px;
     color: blue;
-    text-decoration: underline wavy red;
+    text-decoration: underline overline yellow;
 }
 
 video{
@@ -64,7 +69,8 @@ aside{
 
 .listHeader{
     font-size: 20px;
-    color: firebrick;
+    color: black;
+    text-shadow: 2px 3px 4px red;
 }
 
 .consoleSection{
@@ -90,20 +96,14 @@ aside{
 
 section{
     background-color: blue;
-    border: inset 20px firebrick;
-    margin-bottom: 10px;
+    border: inset 20px yellow;
+    margin-bottom: 40px;
 }
 
 article {
     background-color: firebrick;
     border: groove 20px gray;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-body{
-    background-image: url(¨mario.jpg¨);
-    background-attachment: fixed;
-    background-size:contain;
-    background-repeat:no-repeat;
-    
-}
+
