@@ -27,7 +27,7 @@ nav{
     margin-bottom: 10px;
 }
 
-a{
+nav a{
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ aside{
     vertical-align: top;
 }
 
-aside ul{
+aside li{
     list-style-type: none;
 }
 
