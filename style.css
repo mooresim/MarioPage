@@ -25,17 +25,10 @@ body{
 nav{
     border: double 20px black;
     margin-bottom: 10px;
-    text-decoration: none;
 }
 
-#unorderNav{
-    padding: 0%;
-    margin-left: 25%
-}
-#listNav{
-    display: inline-block;
-    padding-right: 20%;
-    font-size: 20px;
+a{
+    text-decoration: none;
 }
 
 .sectionHeader{
@@ -67,6 +60,10 @@ aside{
     vertical-align: top;
 }
 
+aside li{
+    list-style-type: none;
+}
+
 .listHeader{
     font-size: 20px;
     color: black;
@@ -86,6 +83,7 @@ aside{
 #marioDay{
     font-family: 'Bangers', cursive;
     text-shadow: 3px 4px 5px red;
+    color: yellow;
 }
 
 #marioFact{
@@ -106,4 +104,14 @@ article {
     margin-bottom: 20px;
 }
 
+nav li{
+    display: inline-block;
+    padding-right: 20%;
+    font-size: 20px;
+}
+
+nav ul{
+    padding: 0%;
+    margin-left: 25%;
+}
 
